@@ -7,7 +7,7 @@ job('Aplicacion Node.js DSL') {
         }
     }
     triggers {
-        scm('H/7 * * * *')
+        scm('*/2 * * * *')
     }
     wrappers {
         nodejs('nodejs')
